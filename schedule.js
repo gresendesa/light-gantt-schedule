@@ -263,6 +263,7 @@ Schedule.HTMLTable = class {
 
 		var duration_days = Math.ceil((this.schedule.timeBorderMax - this.schedule.timeBorderMin)/Schedule.DAY_MS)
 		var content = `Período de ${i.d}/${i.m}/${i.y.toString().substr(-2)} a ${e.d}/${e.m}/${e.y.toString().substr(-2)} (${duration_days} dia${(duration_days > 1) ? 's' : ''})`
+
 		var first_td = (new Tag({'name': 'td', 'inner': (this.schedule.timeBorderMax) ? content : ''})).content
 		var scale_tds = []
 

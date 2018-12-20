@@ -1,7 +1,7 @@
 data = [
 
 	{
-		'title': 'Teste',
+		'title': 'Group A',
 		'id': '2',
 		'pos': 1,
 		'tasks': [
@@ -34,9 +34,9 @@ data = [
 
 
 	{
-		'title': 'Teste 2',
+		'title': 'Group B',
 		'id': '3',
-		'pos': 1,
+		'pos': 2,
 		'tasks': [
 			{
 				'title': 'task4', 
