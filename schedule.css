@@ -1,0 +1,46 @@
+table.schedule {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table.schedule th, td {
+	padding: 0;
+	width: 1px;
+	height: 30px;
+}
+
+table.schedule tr.colspanreference {
+	border: 0;
+}
+
+table.schedule td.schedule-label {
+	border: 1px solid black;
+	width: 35%;
+	text-indent: 2em;
+}
+
+.schedule-clickable {
+	cursor: pointer;
+}
+
+table.schedule td.schedule-group-label {
+	background: #d9edf7;
+	text-indent: 1em;
+}
+
+table.schedule tr {
+	border: 1px solid black;
+	font-size: 10px;
+}
+
+table.schedule td.schedule-intime {
+	background: gray
+}
+
+table.schedule td.schedule-intime:hover {
+	background: red
+}
+
+table.schedule td.schedule-outtime {
+	background: white
+}
